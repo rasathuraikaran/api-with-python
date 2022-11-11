@@ -1,7 +1,7 @@
 import requests
 import json
 url = "https://api.github.com/user/repos"
-token = "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"
+token = "your token"
 headers = {
     "Authorization" : "token {}".format(token)
 }
